@@ -132,6 +132,9 @@
   <data name="Cuadrados" xml:space="preserve">
     <value>Cuadrados</value>
   </data>
+  <data name="Forma" xml:space="preserve">
+    <value>forma</value>
+  </data>
   <data name="Formas" xml:space="preserve">
     <value>formas</value>
   </data>

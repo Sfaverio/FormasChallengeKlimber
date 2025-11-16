@@ -106,6 +106,15 @@ namespace DevelopmentChallenge.Data.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a forma.
+        /// </summary>
+        internal static string Forma {
+            get {
+                return ResourceManager.GetString("Forma", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a formas.
         /// </summary>
         internal static string Formas {

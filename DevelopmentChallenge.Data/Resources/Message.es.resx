@@ -121,16 +121,19 @@
     <value>Area</value>
   </data>
   <data name="Circulo" xml:space="preserve">
-    <value>Círculo</value>
+    <value>Circulo</value>
   </data>
   <data name="Circulos" xml:space="preserve">
-    <value>Círculos</value>
+    <value>Circulos</value>
   </data>
   <data name="Cuadrado" xml:space="preserve">
     <value>Cuadrado</value>
   </data>
   <data name="Cuadrados" xml:space="preserve">
     <value>Cuadrados</value>
+  </data>
+  <data name="Forma" xml:space="preserve">
+    <value>forma</value>
   </data>
   <data name="Formas" xml:space="preserve">
     <value>formas</value>
@@ -157,9 +160,9 @@
     <value>Trapecios</value>
   </data>
   <data name="TrianguloEquilatero" xml:space="preserve">
-    <value>Triángulo</value>
+    <value>Triangulo</value>
   </data>
   <data name="TrianguloEquilateros" xml:space="preserve">
-    <value>Triángulos</value>
+    <value>Triangulos</value>
   </data>
 </root>

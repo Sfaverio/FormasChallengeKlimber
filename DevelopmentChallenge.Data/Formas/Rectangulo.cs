@@ -18,11 +18,19 @@ namespace DevelopmentChallenge.Data.Formas
             Alto = alto;
         }
 
+        /// <summary>
+        /// Calcula el área del rectángulo.
+        /// Utiliza la fórmula: Área = Lado * Alto
+        /// </summary>
         public override decimal CalcularArea()
         {
             return Lado * Alto;
         }
 
+        /// <summary>
+        /// Calcula el perímetro del rectángulo.
+        /// Utiliza la fórmula: Perímetro = 2 * (Lado + Alto)
+        /// </summary>
         public override decimal CalcularPerimetro()
         {
             return 2 * (Lado + Alto);

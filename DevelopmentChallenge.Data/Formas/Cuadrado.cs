@@ -15,11 +15,19 @@ namespace DevelopmentChallenge.Data.Classes
             Tipo = TipoGeometrico.Cuadrado;
         }
 
+        /// <summary>
+        /// Calcula el área del cuadrado.
+        /// Utiliza la formula: Área = lado * lado.
+        /// </summary>
         public override decimal CalcularArea()
         {
             return Lado * Lado;
         }
 
+        /// <summary>
+        /// Calcula el perimetro del cuadrado.
+        /// Utiliza la fórmula: Perímetro = 4 * lado.
+        /// </summary>
         public override decimal CalcularPerimetro()
         {
             return 4 * Lado;

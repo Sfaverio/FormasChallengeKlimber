@@ -16,10 +16,19 @@ namespace DevelopmentChallenge.Data.Formas
             Tipo = TipoGeometrico.TrianguloEquilatero;
         }
 
+        /// <summary>
+        /// Calcula el área de un triángulo equilátero.
+        /// Utiliza la fórmula: Área = (Raiz de 3 / 4) * Lado * Lado
+        /// </summary>
         public override decimal CalcularArea()
         {
             return (decimal)(Math.Sqrt(3) / 4) * Lado * Lado;
         }
+
+        /// <summary>
+        /// Calcula el perímetro de un triángulo equilátero.
+        /// Utiliza la formula: Perímetro = 3 * Lado
+        /// </summary>
         public override decimal CalcularPerimetro()
         {
             return 3 * Lado;

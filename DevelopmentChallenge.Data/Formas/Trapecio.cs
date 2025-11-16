@@ -21,15 +21,19 @@ namespace DevelopmentChallenge.Data.Classes
             Tipo = TipoGeometrico.Trapecio;
         }
 
+        /// <summary>
+        /// Calcula el área de un trapecio isósceles.
+        /// Utiliza la fórmula: Área = ((BaseMayor + BaseMenor) / 2) * Altura
+        /// </summary>
         public override decimal CalcularArea()
         {
             return ((BaseMayor + BaseMenor) / 2) * Altura;
         }
 
         /// <summary>
-        /// Utilice la formula para calcular el perimetro de un trapecio isósceles
+        /// Calcula el perímetro de un trapecio isósceles.
+        /// Utiliza la fórmula: Perímetro = BaseMayor + BaseMenor + 2 * LadoOblicuo
         /// </summary>
-        /// <returns></returns>
         public override decimal CalcularPerimetro()
         {
             decimal ladoOblicuo = (decimal)Math.Sqrt(Math.Pow((double)((BaseMayor - BaseMenor) / 2), 2) + Math.Pow((double)Altura, 2));

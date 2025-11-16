@@ -52,7 +52,7 @@
     <Compile Include="Formas\Trapecio.cs" />
     <Compile Include="Formas\Circulo.cs" />
     <Compile Include="Formas\Cuadrado.cs" />
-    <Compile Include="Classes\FormasGeometrica.cs" />
+    <Compile Include="Classes\GeneradorReporteFormas.cs" />
     <Compile Include="Classes\Forma.cs" />
     <Compile Include="Formas\TrianguloEquilatero.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

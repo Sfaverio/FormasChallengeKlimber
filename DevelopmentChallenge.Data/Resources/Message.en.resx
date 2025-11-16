@@ -132,6 +132,9 @@
   <data name="Cuadrados" xml:space="preserve">
     <value>Squares</value>
   </data>
+  <data name="Forma" xml:space="preserve">
+    <value>shape</value>
+  </data>
   <data name="Formas" xml:space="preserve">
     <value>shapes</value>
   </data>
@@ -148,7 +151,7 @@
     <value>Rectangles</value>
   </data>
   <data name="ReporteFormasTitulo" xml:space="preserve">
-    <value>&lt;h1&gt;Shapes report&lt;/h1&gt;</value>
+    <value>&lt;h1&gt;Shapes Report&lt;/h1&gt;</value>
   </data>
   <data name="Trapecio" xml:space="preserve">
     <value>Trapeze</value>
